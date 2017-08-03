@@ -1,0 +1,20 @@
+html, body, #mapDiv, #leftPane{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#resultsContentArea {
+    overflow: auto;
+    width: 574px;
+    height: 75%;
+}
+#mapDiv {
+    left:600px;
+    right:0px;
+    position:absolute;
+}
+#leftPane {
+  float: left;
+  width: 600px;
+  margin: 10px;
+}
