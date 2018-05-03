@@ -12,7 +12,7 @@ function init() {
         zoom: 3
     });
 
-    var basemap = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	   attribution: 'OpenStreetMap'
     }).addTo(map);
 
