@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 
-<html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Map Draw</title>
-    <link rel="stylesheet" href="src/leaflet.css" type="text/css">
-    <link rel="stylesheet" href="styles/style.css" type="text/css">
-    <link rel="stylesheet" href="styles/leaflet.draw.css">
-    <script src="src/leaflet.js" type="text/javascript"></script>
-    <script src="js/leaflet.draw.js" type="text/javascript"></script>
-    <script src="js/mapdraw.js" type="text/javascript"></script>
-    <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v1.5.3/dist/clipboard.min.js"></script>
 </head>
 
-<body onload="init()">
-
-<div id="leftPane">
-    <div id="resultsHeaderDiv"><b>Results</b></div>
-    <textarea id="resultsContentArea"></textarea>
-    <br/><br/>
-    <div>
-        <button class="copyButton" id="copyButtonId" data-clipboard-action="copy" data-clipboard-target="#resultsContentArea">
-            Copy to Clipboard
-        </button>
-        <button id="clearButtonId" onclick="clearResults()">
-            Clear Results
-        </button>        
+<body>
+    <div id="leftPane">
+        <div id="resultsHeaderDiv"><b>Results</b></div>
+        <textarea id="resultsContentArea"></textarea>
+        <br /><br />
+        <div>
+            <button class="copyButton" id="copyButtonId" data-clipboard-action="copy"
+                data-clipboard-target="#resultsContentArea">
+                Copy to Clipboard
+            </button>
+            <button id="clearButtonId" onclick="clearResults()">
+                Clear Results
+            </button>
+        </div>
     </div>
-</div>
-  <div id="mapDiv"></div>
-</div>
+    <div id="mapDiv"></div>
+    <script src="./index.js">init();</script>
+    </div>
 </body>
+
 </html>

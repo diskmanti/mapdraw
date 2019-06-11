@@ -1,0 +1,34 @@
+{
+  "name": "mapdraw",
+  "version": "1.0.0",
+  "description": "simple app to draw on leaflet map",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel serve index.html --open",
+    "build": "npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diskmanti/mapdraw.git"
+  },
+  "keywords": [
+    "leafletjs",
+    "gis",
+    "map"
+  ],
+  "author": "diskmanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diskmanti/mapdraw/issues"
+  },
+  "homepage": "https://github.com/diskmanti/mapdraw#readme",
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "leaflet": "^1.5.1",
+    "leaflet-draw": "^1.0.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-clean-dist": "0.0.6"
+  }
+}
