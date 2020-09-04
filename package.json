@@ -24,7 +24,7 @@
   "homepage": "https://github.com/diskmanti/mapdraw#readme",
   "dependencies": {
     "clipboard": "^2.0.6",
-    "leaflet": "^1.6.0",
+    "leaflet": "^1.7.1",
     "leaflet-draw": "^1.0.4"
   },
   "devDependencies": {
